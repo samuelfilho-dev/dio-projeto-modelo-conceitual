@@ -51,11 +51,11 @@ classDiagram
         - Interger idCurso
     }
 
-    class Pre-requisitos {
+    class PreRequisitos {
         - Interger idPrérequisitos
     }
 
-    class Pre-requisitos das Disciplinas {
+    class PreRequisitos das Disciplinas {
         - Interger idDisciplina
         - Interger idPrérequisitos
     }
@@ -68,8 +68,8 @@ classDiagram
     Departamento "1" --* "N" Curso
     Curso "1" --* "N" Disciplina_Curso
     Disciplina "1" --* "N" Disciplina_Curso
-    Pre-requisitos "1" --* "N" Pre-requisitos das Disciplinas
-    Disciplina "1" --* "N" Pre-requisitos das Disciplinas
+    PreRequisitos "1" --* "N" PreRequisitos das Disciplinas
+    Disciplina "1" --* "N" PreRequisitos das Disciplinas
 ```
 
 ---
@@ -123,11 +123,11 @@ classDiagram
         - Interger idCurso
     }
 
-    class Pre-requisitos {
+    class PreRequisitos {
         - Interger idPrérequisitos
     }
 
-    class Pre-requisitos das Disciplinas {
+    class PreRequisitos das Disciplinas {
         - Interger idDisciplina
         - Interger idPrérequisitos
     }
@@ -165,8 +165,8 @@ classDiagram
     Departamento "1" --* "N" Curso
     Curso "1" --* "N" Disciplina_Curso
     Disciplina "1" --* "N" Disciplina_Curso
-    Pre-requisitos "1" --* "N" Pre-requisitos das Disciplinas
-    Disciplina "1" --* "N" Pre-requisitos das Disciplinas
+    PreRequisitos "1" --* "N" PreRequisitos das Disciplinas
+    Disciplina "1" --* "N" PreRequisitos das Disciplinas
     Pessoa "1" .. "1" Aluno
     Pessoa "1" .. "1" Professor
     Disciplina "1" --* "N" Oferta de Disciplina
